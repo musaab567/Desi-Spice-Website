@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desi Spice - Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div class="container">
+        <!--the login box in the center-->
+        <div class="loginBox">
+
+            <!--the circle user icon across the login box-->
+            <i class="fa fa-user user w3-green"></i>
+            <div class="form-header">
+                <p>Don't Have an Account? <a href="" class="w3-text-green">Sign Up</a></p>
+                <h2 class="w3-text-green">Desi Spice Log In</h2>
+            </div>
+
+            <!--Actual form begins here-->
+            <form method="POST" action="../php/login_user.php">
+                <!--paragraph for the username-->
+                <p>
+                    <label for="">Username</label>
+                    <input type="text" class="form-inputs"  placeholder="Input Username Here"name="username">
+                </p>
+
+                <!--paragraph for the password-->
+                <p>
+                    <label for="">Password</label>
+                    <input type="password" class="form-inputs" placeholder="********" name="password">
+                </p>
+
+                <!--submit button here-->
+                <button type="submit" class="w3-btn w3-green" style="width:100%;">Log In</button>
+            
+            </form>
+        </div>
+    </div>
+</body>
+</html>

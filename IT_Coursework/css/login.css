@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(248, 248, 248);
+}
+
+.w3-text-green{
+    color: red;
+}
+
+.form-inputs{
+    padding: 10px;
+    width: 100%;
+}
+
+.w3-btn{
+    background: red;
+    border: none;
+    padding: 10px 0px;
+}
+
+.error-msg{
+    font-size: 20px;
+}
+
+.container{
+    width: 80% !important;
+    margin: 30px auto;
+    padding: 20px 50px !important;   
+    height: auto;
+}
+
+.loginBox{
+    width: 30%;
+    height: 500px;
+    position: relative;
+    transform: translate(-50%,40%);
+    top: 50%;
+    left: 50%;
+    padding: 80px 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.185);
+    background: white;
+}
+
+.loginBox .user{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(78%/2);
+    border-radius: 50%;
+    font-size: 50px;
+    padding: 2.5%;
+    text-align: center;
+}
+
+.form-header{
+    text-align: center;
+}
+
+.form-header p a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+
+.btn-reset{
+    width: 100%;
+    margin-top: 4%;
+}
+
+@media (max-width: 578px){
+    .container{
+        width: 90% !important;
+        margin: 0px auto;
+        padding: 0px 0px !important;
+        height: 90vh;
+    }
+    
+    .loginBox{
+        width: 98%;
+        height: 400px;
+        transform: translate(-50%,40%);
+        padding: 20px 5px;
+    }
+    .loginBox .user{
+        width: 60px;
+        height: 60px;
+        top: calc(-70px/2);
+        left: calc(80%/2);
+        font-size: 30px;
+        padding: 5%;
+    }
+}
+
+@media (min-width: 578px) and (max-width: 740px){
+    .container{
+        width: 90% !important;
+        margin: 10px auto;
+        padding: 0px 0px !important;
+        height: auto;
+    }
+    
+    .loginBox{
+        width: 60%;
+        transform: translate(-50%,30%);
+        padding: 20px 10px;
+        height: 400px;
+    }
+    .loginBox .user{
+        width: 60px;
+        height: 60px;
+        top: calc(-70px/2);
+        left: calc(90%/2);
+        font-size: 30px;
+        padding: 2.5%;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 778px){
+    .container{
+        width: 90% !important;
+        margin: 10px auto;
+        padding: 0px 0px !important;
+        height: auto;
+    }
+    
+    .loginBox{
+        width: 60%;
+        height: 400px;
+        transform: translate(-50%,50%);
+        padding: 20px 10px;
+        margin-bottom: 15%;
+    }
+    .loginBox .user{
+        width: 60px;
+        height: 60px;
+        top: calc(-70px/2);
+        left: calc(90%/2);
+        font-size: 30px;
+        padding: 2.5%;
+    }
+}
+@media (min-width: 778px) and (max-width: 1300px){
+    .container{
+        width: 90% !important;
+        margin: 10px auto;
+        padding: 0px 0px !important;
+        height: auto;
+    }
+    
+    .loginBox{
+        width: 60%;
+        height: auto;
+        transform: translate(-50%,50%);
+        padding: 20px 10px;
+        margin-bottom: 15%;
+    }
+    .loginBox .user{
+        width: 60px;
+        height: 60px;
+        top: calc(-70px/2);
+        left: calc(90%/2);
+        font-size: 30px;
+        padding: 2.5%;
+    }
+}
+@media (min-width: 1300px){
+    .loginBox .user{
+        padding: 5%;
+    }
+}

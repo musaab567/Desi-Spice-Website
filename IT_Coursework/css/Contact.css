@@ -1,0 +1,115 @@
+body{
+	margin: 0;
+	padding:0;
+	text-align:center;
+	background: url("../images/image26.jpg")no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-family:Oswald;
+}
+.contact-title{
+	margin-top:100px;
+	color:white;
+	text-transition:uppercase;
+}
+.contact-title h1{
+	font-size:30px;
+	line-height:10px;
+}
+form{
+	margin-top:40px;
+}
+.form-control{
+	width:600px;
+	background:transparent;
+	border:none;
+	outline:none;
+	border-bottom:1px solid white;
+	color:white;
+	font-size:20px;
+	margin-bottom:15px;
+}
+input{
+	40px;
+}
+form .submit{
+	background:blue;
+	border-color:transparent;
+	color:white;
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:1.5px;
+	height:45px;
+	margin-top:15px;
+}
+
+	
+wrapper .center{
+	position: absolute;
+	top: 50%;
+	left:53%;
+	transform: translate(-50%, -50%);
+	font-family:Oswald
+}
+.center h1{
+	color:red;
+	font-size:65px;
+	font-weight:bold;
+	width:900px;
+	text-align:center;
+}
+	
+.center h2{
+	color:red;
+	font-size:65px;
+	font-weight:bold;
+	width:883px;
+	margin-top:10px;
+	text-align:center;
+}
+	
+	
+
+.navbar{
+	height: 75px;
+	width: 100%;
+	background: rgba(0,0,0,0.4);
+	
+	
+	
+}
+.logo{
+	width: 90px;
+	height: 90px;
+	padding: 7px 90px;
+	float:left;
+	
+}
+img{
+	max-width: 90%;
+	max-height: 90%;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-tyle: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 85px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 6px 12px;
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+}
+
+.navbar ul li a:hover{
+	background: red;
+	border-radius: 3px;
+}
+
+
